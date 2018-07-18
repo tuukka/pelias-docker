@@ -22,7 +22,7 @@ services:
       - "./synonyms/custom_name.txt:/code/pelias/schema/synonyms/custom_name.txt"
       - "./synonyms/custom_street.txt:/code/pelias/schema/synonyms/custom_street.txt"
   api:
-    image: pelias/api:master
+    image: pelias/api:configurable-boosts
     container_name: pelias_api
     restart: always
     environment: [ "PORT=4000" ]

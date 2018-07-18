@@ -18,6 +18,13 @@
     }
   },
   "api": {
+    "customBoosts": {
+      "layer": {
+        "stops": 5,
+        "fare": 5,
+        "station": 1
+      }
+    },
     "textAnalyzer": "libpostal",
     "services": {
       "pip": { "url": "http://pip-service:4200" },
