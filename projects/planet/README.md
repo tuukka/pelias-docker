@@ -8,6 +8,12 @@ This project is configured to download/prepare/build a complete Pelias installat
 * 16GB RAM
 * 16+ CPU cores or a lot of patience
 
+## Time requirements
+
+With a 36 CPU machine and fast network connection, full planet builds can take as little as 16 hours.
+
+It's not recommended to run full planet builds on consuer hardware (such as a standard 8 Core, 16GB RAM laptop or desktop) unless you are willing to wait up to 72 hours.
+
 ## Setup
 
 Please refer to the instructions at https://github.com/pelias/docker in order to install and configure your docker environment.
